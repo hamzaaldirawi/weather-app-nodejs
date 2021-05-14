@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel = 'icon' href = '/img/weather.png'>
+        <link rel = 'stylesheet' href = '/css/styles.css'>
+    </head>
+    <body>
+        <div class='main-content'>
+            {{>header}}
+            <!--Use to load partial file-->
+            <p>{{msg}}<!-- use to load object from express--></p>
+        </div>
+        
+        {{>footer}}
+    </body>
+</html>
